@@ -27,14 +27,14 @@ public class Ex04_1 {
     }
 
     public static void main(String[] args) {
-        Ex04_1 ex04 = new Ex04_1();
+        Ex04_1 ex04_1 = new Ex04_1();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         String[] str = new String[n];
         for (int i = 0; i < n; i++) {
             str[i] = sc.next();
         }
-        for (String s : ex04.solution(n, str)) {
+        for (String s : ex04_1.solution(n, str)) {
             System.out.println(s);
         }
     }
