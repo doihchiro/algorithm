@@ -15,9 +15,9 @@ public class Ex02 {
     }
 
     public static void main(String[] args) {
-        Ex02 T = new Ex02();
+        Ex02 ex02 = new Ex02();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
-        System.out.println(T.solution(str));
+        System.out.println(ex02.solution(str));
     }
 }
