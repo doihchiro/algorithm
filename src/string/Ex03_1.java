@@ -22,9 +22,9 @@ public class Ex03_1 {
     }
 
     public static void main(String[] args) {
-        Ex03_1 T = new Ex03_1();
+        Ex03_1 ex03_1 = new Ex03_1();
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
-        System.out.println(T.solution(str));
+        System.out.println(ex03_1.solution(str));
     }
 }
