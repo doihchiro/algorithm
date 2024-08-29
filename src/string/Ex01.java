@@ -19,10 +19,10 @@ public class Ex01 {
     }
 
     public static void main(String[] args) {
-        Ex01 T = new Ex01();
+        Ex01 ex01 = new Ex01();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         char c = sc.next().charAt(0);
-        System.out.println(T.solution(str, c));
+        System.out.println(ex01.solution(str, c));
     }
 }
