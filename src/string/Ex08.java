@@ -16,9 +16,9 @@ public class Ex08 {
     }
 
     public static void main(String[] args) {
-        Ex08 ex05 = new Ex08();
+        Ex08 ex08 = new Ex08();
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
-        System.out.println(ex05.solution(str));
+        System.out.println(ex08.solution(str));
     }
 }
